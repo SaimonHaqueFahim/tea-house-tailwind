@@ -27,7 +27,50 @@
       };
     </script>
   </head>
-  <body>
+  <body class="bg-white">
+    <!-- Navbar Section -->
+    <nav class="bg-orange-500 text-white py-4 px-4 md:px-16">
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <div class="flex items-center gap-2">
+          <img
+            src="./images/Brown Flat Illustrative Cafe Coffee Logo.png"
+            alt="Logo"
+            class="h-10"
+          />
+          <h4 class="text-xl font-bold">Tea House</h4>
+        </div>
+
+        <!-- Links -->
+        <div class="flex items-center gap-8">
+          <a href="#" class="flex items-center gap-2">
+            <i class="fa-solid fa-home"></i>
+            <span>Home</span>
+          </a>
+          <a href="#" class="flex items-center gap-2">
+            <i class="fa-solid fa-question-circle"></i>
+            <span>Support</span>
+          </a>
+          <div class="relative">
+            <input
+              type="text"
+              placeholder="Search"
+              class="bg-white border-2 border-gray-300 rounded-lg py-2 px-4 focus:outline-none focus:border-orange-500"
+            />
+            <button
+              class="absolute right-0 top-0 bottom-0 px-3 py-2 bg-orange-500 text-white rounded-r-lg"
+            >
+              <i class="fa-solid fa-search"></i>
+            </button>
+          </div>
+          <a href="#" class="flex items-center gap-2">
+            <i class="fa-solid fa-user"></i>
+            <span>Log in</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
       <header class="lg:flex pt-10 mb-20">
         <!--Text Content-->
